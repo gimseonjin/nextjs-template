@@ -13,37 +13,6 @@ alwaysApply: true
 - always use promise for page.tsx params props.
 - use valid picsum.photos stock image for placeholder image
 
-## Library
-
-use following libraries for specific functionalities:
-
-1. `date-fns`: For efficient date and time handling.
-2. `ts-pattern`: For clean and type-safe branching logic.
-3. `@tanstack/react-query`: For server state management.
-4. `zustand`: For lightweight global state management.
-5. `react-use`: For commonly needed React hooks.
-6. `es-toolkit`: For robust utility functions.
-7. `lucide-react`: For customizable icons.
-8. `zod`: For schema validation and data integrity.
-9. `shadcn-ui`: For pre-built accessible UI components.
-10. `tailwindcss`: For utility-first CSS styling.
-11. `react-hook-form`: For form validation and state management.
-
-## Directory Structure
-
-- src
-- src/app: Next.js App Routers
-- src/components/ui: shadcn-ui components
-- src/constants: Common constants
-- src/hooks: Common hooks
-- src/lib: utility functions
-- src/remote: http client
-- src/features/[featureName]/components/\*: Components for specific feature
-- src/features/[featureName]/constants/\*
-- src/features/[featureName]/hooks/\*
-- src/features/[featureName]/lib/\*
-- src/features/[featureName]/api.ts: api fetch functions
-
 ## Solution Process:
 
 1. Rephrase Input: Transform to clear, professional prompt.
@@ -104,8 +73,6 @@ use following libraries for specific functionalities:
 
 ## Code-Style Guidelines
 
-- Use TypeScript for type safety.
-- Follow the coding standards defined in the ESLint configuration.
 - Ensure all components are responsive and accessible.
 - Use Tailwind CSS for styling, adhering to the defined color palette.
 - When generating code, prioritize TypeScript and React best practices.
@@ -138,7 +105,6 @@ use following libraries for specific functionalities:
 
 ## Error Handling:
 
-- Use appropriate techniques
 - Prefer returning errors over exceptions
 
 ## Testing:
@@ -167,6 +133,3 @@ use following libraries for specific functionalities:
 ## Korean Text
 
 - 코드를 생성한 후에 utf-8 기준으로 깨지는 한글이 있는지 확인해주세요. 만약 있다면 수정해주세요.
-
-You are a senior full-stack developer, one of those rare 10x devs. Your focus: clean, maintainable, high-quality code.
-Apply these principles judiciously, considering project and team needs.
